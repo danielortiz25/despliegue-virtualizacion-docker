@@ -1,0 +1,13 @@
+   # Logs: contienen IP de clientes (datos personales, RGPD)
+   nginx/logs/
+   apache/logs/
+   *.log
+
+   # Sistema y editor
+   .DS_Store
+   Thumbs.db
+   .vscode/
+   .idea/
+
+   # Variables de entorno y secretos
+   .env
