@@ -1,0 +1,37 @@
+services:
+  # Servidor de borde: único contenedor expuesto al exterior
+  nginx-proxy:
+    image: nginx:1.27-alpine
+    container_name: srv-nginx-proxy
+    restart: unless-stopped
+    ports:
+      # puerto del host : puerto del contenedor
+      - "80:80"
+    volumes:
+      # Configuración y contenido en solo lectura
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./nginx/html:/usr/share/nginx/html:ro
+      # Logs en el host para auditoría y trazabilidad (RGPD)
+      - ./nginx/logs:/var/log/nginx
+    networks:
+      - red-corp
+    depends_on:
+      - apache-app
+
+  # Servidor interno Apache: SIN "ports", solo accesible desde red-corp
+  apache-app:
+    image: httpd:2.4-alpine
+    container_name: srv-apache-app
+    restart: unless-stopped
+    # Carga la configuración del host virtual después de httpd.conf
+    command: ["httpd-foreground", "-c", "Include conf/extra/vhost.conf"]
+    volumes:
+      - ./apache/htdocs:/usr/local/apache2/htdocs:ro
+      - ./apache/conf/vhost.conf:/usr/local/apache2/conf/extra/vhost.conf:ro
+      - ./apache/logs:/usr/local/apache2/logs
+    networks:
+      - red-corp
+
+networks:
+  red-corp:
+    driver: bridge
