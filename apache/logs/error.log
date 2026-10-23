@@ -1,0 +1,2 @@
+[Fri Oct 23 07:51:45.551142 2026] [authz_core:error] [pid 8:tid 69] [client 172.18.0.1:0] AH01630: client denied by server configuration: /usr/local/apache2/htdocs/privado/
+[Fri Oct 23 07:51:45.568825 2026] [authz_core:error] [pid 8:tid 70] [client 172.18.0.1:0] AH01630: client denied by server configuration: /usr/local/apache2/htdocs/privado/

@@ -1,0 +1,54 @@
+2026/10/22 19:02:43 [notice] 1#1: using the "epoll" event method
+2026/10/22 19:02:43 [notice] 1#1: nginx/1.27.5
+2026/10/22 19:02:43 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2026/10/22 19:02:43 [notice] 1#1: OS: Linux 6.8.0-1064-azure
+2026/10/22 19:02:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2026/10/22 19:02:43 [notice] 1#1: start worker processes
+2026/10/22 19:02:43 [notice] 1#1: start worker process 21
+2026/10/22 19:02:43 [notice] 1#1: start worker process 22
+2026/10/22 19:12:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/10/22 19:12:32 [notice] 21#21: gracefully shutting down
+2026/10/22 19:12:32 [notice] 22#22: gracefully shutting down
+2026/10/22 19:12:32 [notice] 21#21: exiting
+2026/10/22 19:12:32 [notice] 22#22: exiting
+2026/10/22 19:12:32 [notice] 22#22: exit
+2026/10/22 19:12:32 [notice] 21#21: exit
+2026/10/22 19:12:32 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2026/10/22 19:12:32 [notice] 1#1: worker process 21 exited with code 0
+2026/10/22 19:12:32 [notice] 1#1: worker process 22 exited with code 0
+2026/10/22 19:12:32 [notice] 1#1: exit
+2026/10/22 19:12:34 [notice] 1#1: using the "epoll" event method
+2026/10/22 19:12:34 [notice] 1#1: nginx/1.27.5
+2026/10/22 19:12:34 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2026/10/22 19:12:34 [notice] 1#1: OS: Linux 6.8.0-1064-azure
+2026/10/22 19:12:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2026/10/22 19:12:34 [notice] 1#1: start worker processes
+2026/10/22 19:12:34 [notice] 1#1: start worker process 21
+2026/10/22 19:12:34 [notice] 1#1: start worker process 22
+2026/10/23 07:45:15 [notice] 1#1: using the "epoll" event method
+2026/10/23 07:45:15 [notice] 1#1: nginx/1.27.5
+2026/10/23 07:45:15 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2026/10/23 07:45:15 [notice] 1#1: OS: Linux 6.8.0-1064-azure
+2026/10/23 07:45:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2026/10/23 07:45:15 [notice] 1#1: start worker processes
+2026/10/23 07:45:15 [notice] 1#1: start worker process 21
+2026/10/23 07:45:15 [notice] 1#1: start worker process 22
+2026/10/23 07:46:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/10/23 07:46:52 [notice] 22#22: gracefully shutting down
+2026/10/23 07:46:52 [notice] 22#22: exiting
+2026/10/23 07:46:52 [notice] 21#21: gracefully shutting down
+2026/10/23 07:46:52 [notice] 21#21: exiting
+2026/10/23 07:46:52 [notice] 21#21: exit
+2026/10/23 07:46:52 [notice] 22#22: exit
+2026/10/23 07:46:52 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2026/10/23 07:46:52 [notice] 1#1: worker process 21 exited with code 0
+2026/10/23 07:46:52 [notice] 1#1: worker process 22 exited with code 0
+2026/10/23 07:46:52 [notice] 1#1: exit
+2026/10/23 07:46:54 [notice] 1#1: using the "epoll" event method
+2026/10/23 07:46:54 [notice] 1#1: nginx/1.27.5
+2026/10/23 07:46:54 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2026/10/23 07:46:54 [notice] 1#1: OS: Linux 6.8.0-1064-azure
+2026/10/23 07:46:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2026/10/23 07:46:54 [notice] 1#1: start worker processes
+2026/10/23 07:46:54 [notice] 1#1: start worker process 21
+2026/10/23 07:46:54 [notice] 1#1: start worker process 22
